@@ -176,6 +176,16 @@ audio::-webkit-media-controls-panel {
     width: 100%;
 }
 
+.exercise__input_wrong {
+    color: rgb(222, 95, 102);
+    font-weight: bold;
+}
+
+.exercise__input_correct {
+    color: rgb(136, 198, 82);
+    font-weight: bold;
+}
+
 .exercise__input:focus {
     border-color: #3898EC;
     outline:none
@@ -193,6 +203,15 @@ audio::-webkit-media-controls-panel {
     align-self: center;
     margin-right: 3px;
     white-space: nowrap;
+}
+
+.exercise__result {
+    margin-top: 40px;
+    opacity: 0;
+}
+
+.exercise__result_visible {
+    opacity: 1;
 }
 
 .exercise__button {
