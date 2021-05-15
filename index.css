@@ -227,6 +227,7 @@ audio::-webkit-media-controls-panel {
 @media screen and (max-width: 990px) {
     .exercise__input {
         width: 300px;
+    }
 }
 
 @media screen and (max-width: 492px) {
