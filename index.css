@@ -139,10 +139,6 @@ audio::-webkit-media-controls-panel {
     flex-basis: 24px;
 }
 
-.exercise {
-
-}
-
 .exercise__example-input {
     margin-bottom: 8px;
     padding: 6px 2px 0px 4px;
